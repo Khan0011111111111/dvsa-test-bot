@@ -1,1 +1,19 @@
-# Placeholder for src/config.json
+{
+  "credentials": {
+    "license_number": "YOUR_LICENSE_NUMBER",
+    "application_reference": "YOUR_APP_REFERENCE"
+  },
+  "test_centers": ["London", "Leeds", "Manchester"],
+  "preferred_dates": ["2025-04-20", "2025-04-22"],
+  "captcha_api_key": "YOUR_2CAPTCHA_API_KEY",
+  "notifications": {
+    "sms": true,
+    "email": true,
+    "phone_number": "+447000000000",
+    "email_address": "you@example.com"
+  },
+  "proxies": [
+    "http://user:pass@res-proxy1.com:8000",
+    "http://user:pass@res-proxy2.com:8000"
+  ]
+}
